@@ -6,17 +6,14 @@ Link to video presentation
 
 ## Table of Contents
 
-- [Data Analysis & Transformation] 
-- [Data Cleaning & Feature Engineering]
-- [Model Training & Integration] 
-- [Hardware & UI Prototyping]
-- [Installation & Setup]
-- [References]
+- Data Analysis & Transformation 
+- Data Cleaning & Feature Engineering
+- Model Training & Integration
+- Hardware & UI Prototyping
+- Installation & Setup
+- References
 
 ## Data Analysis & Transformation
-
-<details>
-<summary>Click to expand</summary>
 
 **Source Data:** Baseline maternal health records focused on physiological and demographic vitals.  
 
@@ -28,12 +25,7 @@ Link to video presentation
 
 **Demographics:** Rescaled **Age** and **Parity** (Poisson distribution) to match Sub-Saharan African maternal profiles.  
 
-</details>
-
 ## Data Cleaning & Feature Engineering
-
-<details>
-<summary>Click to expand</summary>
 
 **Standardization:** Implemented z-score normalization for **age, BMI, and vital signs** to ensure model stability.  
 
@@ -46,12 +38,7 @@ Link to video presentation
 
 based on heart rate trends during obstetric emergencies.  
 
-</details>
-
 ## Model Training & Integration
-
-<details>
-<summary>Click to expand</summary>
 
 **MLP (Multi-Layer Perceptron):** Trained on **tabular clinical features** (Hemoglobin, BP, BMI) to predict baseline PPH risk.  
 
@@ -65,23 +52,19 @@ based on heart rate trends during obstetric emergencies.
 | Warning  | Yellow    | Masking phase; recheck in 5 minutes |
 | Critical | Red       | Decompensation; triggers immediate alarm |
 
-</details>
-
 ## Hardware & UI Prototyping
 
-<details>
-<summary>Click to expand</summary>
-
 **Tinkercad Simulation:** Developed an **Arduino-based prototype** using an LDR sensor, LCD, and Buzzer to simulate live patient monitoring.  
+Link to Design simulation: https://www.tinkercad.com/things/h7RhB6euBB6-dazzling-kup/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=DE9olHCSR-mMSFoHcx5vihOplyp_ydOTbkNDKp-06Vw
 
-**Figma Dashboard:** Designed a high-fidelity UI using a **Magenta-500 (#ff22f0)** branding palette, featuring live scan screens and critical notification flows.  
-
-</details>
+**Figma Dashboard:** Designed a high-fidelity UI using a **Magenta-500 (#ff22f0)** branding palette, featuring live scan screens and critical notification flows.
+Link to Figma design: https://www.figma.com/design/JSrNt7PvEl8tJOwuf2zrc2/Ruvimbo-Motherhood-Dashboard?node-id=0-1&t=9iezWi4itYgp1Qgc-1
 
 ## Installation & Setup
 
 # Clone the repository
 git clone https://github.com/nmarizani/final_capstone_project.git
+
 cd final_capstone_project
 
 # Install dependencies
