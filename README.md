@@ -73,5 +73,8 @@ pip install -r requirements.txt
 # Run data preprocessing
 run code cells in notebook
 
+# Deployment Plan
+The deployment plan uses an offline-first mobile app approach: the trained Late-Fusion model will be converted to TensorFlow Lite (INT8 quantized, ~500KB) and embedded directly into an Android APK that runs entirely on-device without requiring internet connectivity. The app is initially deployed as a pilot on render at tested with University of Zimbabwe medical students on low-cost Android tablets, where users (midwives) input patient vitals and receive real-time PPH risk predictions with SHAP-based clinical reasoning displayed in the interface.
+
 ## References
 UCI Machine Learning Repository. (2023). Archive.ics.uci.edu. https://archive.ics.uci.edu/dataset/863/maternal+health+risk
