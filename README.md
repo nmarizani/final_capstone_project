@@ -2,7 +2,7 @@
 
 An **integrated AI solution** combining clinical data analysis, machine learning (MLP/CNN), and hardware prototyping to detect and manage **Postpartum Hemorrhage (PPH) risk**.  
 
-Link to video presentation 
+Link to video presentation: https://drive.google.com/file/d/1G0KPHAK1Z0pBYohSqhyQOL13bFHvNqW7/view?usp=sharing 
 
 ## Table of Contents
 
